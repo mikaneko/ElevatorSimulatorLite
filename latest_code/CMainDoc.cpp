@@ -131,6 +131,7 @@ static UINT ChildThread(LPVOID lParam)
 	(pDoc->elevsys.elev[0]).m_wait_time=0;
 	(pDoc->elevsys.elev[0]).now_direction=ELE_WAIT;
 	(pDoc->elevsys.elev[0]).m_door_status=ELE_DOOR_CLOSE;
+	(pDoc->elevsys.elev[0]).m_ins=INS_MSG(IT_NOMSG);
 	//
 	(pDoc->elevsys.elev[1]).now_floor_int=1+(pDoc->buf_ele2init);
 	(pDoc->elevsys.elev[1]).now_floor_point=0;
@@ -142,6 +143,7 @@ static UINT ChildThread(LPVOID lParam)
 	(pDoc->elevsys.elev[1]).m_wait_time=0;
 	(pDoc->elevsys.elev[1]).now_direction=ELE_WAIT;
 	(pDoc->elevsys.elev[1]).m_door_status=ELE_DOOR_CLOSE;
+	(pDoc->elevsys.elev[1]).m_ins=INS_MSG(IT_NOMSG);
 	//
 	(pDoc->elevsys.elev[2]).now_floor_int=1+(pDoc->buf_ele3init);
 	(pDoc->elevsys.elev[2]).now_floor_point=0;
@@ -153,6 +155,7 @@ static UINT ChildThread(LPVOID lParam)
 	(pDoc->elevsys.elev[2]).m_wait_time=0;
 	(pDoc->elevsys.elev[2]).now_direction=ELE_WAIT;
 	(pDoc->elevsys.elev[2]).m_door_status=ELE_DOOR_CLOSE;
+	(pDoc->elevsys.elev[2]).m_ins=INS_MSG(IT_NOMSG);
 	//
 	
 
