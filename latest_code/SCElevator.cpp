@@ -62,6 +62,7 @@ void Elevator::NextTick()
 #if DEBUGMODE
 AfxMessageBox(CString(TEXT("电梯失去联系(ERR04)。")));
 #endif
+		if(m_wait_time>0){m_wait_time--;}
 		now_direction=ELE_WAIT;
 		return;
 	}

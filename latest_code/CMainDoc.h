@@ -6,7 +6,7 @@
 #include "CSettingDlgAlg.h"
 #include "CSettingDlgPeo.h"
 #include "CSettingDlgInit.h"
-//#include "CCmdCentre.h"
+#include "CSettingDocBox.h"
 
 class CMainDoc: public CDocument
 {
@@ -51,4 +51,33 @@ public:
 	afx_msg void OnBnClickedButton3();
 	afx_msg void OnBnClickedButton4();
 	afx_msg void OnBnClickedButton5();
+	afx_msg void OnDoc01();
+	afx_msg void OnDoc02();
+	afx_msg void OnDoc03();
+	afx_msg void OnDoc04();
+	afx_msg void OnDoc05();
+	afx_msg void OnDoc06();
+	afx_msg void OnDoc07();
+	afx_msg void OnDoc08();
+	afx_msg void OnDoc09();
+	afx_msg void OnDoc10();
+	afx_msg void OnDoc11();
+	afx_msg void OnDoc12();
+	afx_msg void OnDoc13();
+	afx_msg void OnDoc14();
+	afx_msg void OnDoc15();
+	afx_msg void OnDoc16();
+	afx_msg void OnLog01();
+	afx_msg void OnLog02();
+	afx_msg void OnLog03();
+	afx_msg void OnLog04();
+	afx_msg void OnLog05();
+	afx_msg void OnLog06();
+	afx_msg void OnLog07();
+	afx_msg void OnLog08();
+	afx_msg void OnLog09();
+	afx_msg void OnLog10();
+	afx_msg void OnLog11();
+	afx_msg void OnGpl();
+	afx_msg void OnOtherLs();
 };

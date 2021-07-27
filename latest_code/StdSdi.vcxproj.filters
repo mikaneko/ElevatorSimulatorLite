@@ -60,6 +60,9 @@
     <ClCompile Include="CSettingDlgRequest.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CSettingDocBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CMainDoc.h">
@@ -108,6 +111,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="CSettingDlgRequest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSettingDocBox.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

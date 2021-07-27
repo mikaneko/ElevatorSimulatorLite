@@ -155,16 +155,28 @@ void CMainView::OnDraw(CDC* pDC)
 	pDC->TextOutW(680,70,ele1info);
 	ele1info.Format(TEXT("ele[0].now_floor_point: %d"),pDoc->elevsys.elev[0].now_floor_point);
 	pDC->TextOutW(680,90,ele1info);
-
-	CString ele2info;
-	ele1info.Format(TEXT("ele[1].now_floor_int: %d"),pDoc->elevsys.elev[1].now_floor_int);
+	ele1info.Format(TEXT("ele[0].m_wait_time: %d"),pDoc->elevsys.elev[0].m_wait_time);
 	pDC->TextOutW(680,110,ele1info);
-	ele1info.Format(TEXT("ele[1].now_floor_point: %d"),pDoc->elevsys.elev[1].now_floor_point);
+	ele1info.Format(TEXT("ele[0].now_direction: %d"),pDoc->elevsys.elev[0].now_direction);
 	pDC->TextOutW(680,130,ele1info);
 
-	CString ele3info;
-	ele1info.Format(TEXT("ele[2].now_floor_int: %d"),pDoc->elevsys.elev[2].now_floor_int);
-	pDC->TextOutW(680,150,ele1info);
-	ele1info.Format(TEXT("ele[2].now_floor_point: %d"),pDoc->elevsys.elev[2].now_floor_point);
+	ele1info.Format(TEXT("ele[1].now_floor_int: %d"),pDoc->elevsys.elev[1].now_floor_int);
 	pDC->TextOutW(680,170,ele1info);
+	ele1info.Format(TEXT("ele[1].now_floor_point: %d"),pDoc->elevsys.elev[1].now_floor_point);
+	pDC->TextOutW(680,190,ele1info);
+	ele1info.Format(TEXT("ele[1].m_wait_time: %d"),pDoc->elevsys.elev[1].m_wait_time);
+	pDC->TextOutW(680,210,ele1info);
+	ele1info.Format(TEXT("ele[1].now_direction: %d"),pDoc->elevsys.elev[1].now_direction);
+	pDC->TextOutW(680,230,ele1info);
+
+	ele1info.Format(TEXT("ele[2].now_floor_int: %d"),pDoc->elevsys.elev[2].now_floor_int);
+	pDC->TextOutW(680,270,ele1info);
+	ele1info.Format(TEXT("ele[2].now_floor_point: %d"),pDoc->elevsys.elev[2].now_floor_point);
+	pDC->TextOutW(680,290,ele1info);
+	ele1info.Format(TEXT("ele[2].m_wait_time: %d"),pDoc->elevsys.elev[2].m_wait_time);
+	pDC->TextOutW(680,310,ele1info);
+	ele1info.Format(TEXT("ele[2].now_direction: %d"),pDoc->elevsys.elev[2].now_direction);
+	pDC->TextOutW(680,330,ele1info);
+
+	
 }

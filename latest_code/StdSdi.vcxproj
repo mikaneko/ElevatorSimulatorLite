@@ -27,6 +27,7 @@
     <UseDebugLibraries>false</UseDebugLibraries>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -66,6 +67,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -84,6 +86,7 @@
     <ClCompile Include="CSettingDlgInit.cpp" />
     <ClCompile Include="CSettingDlgPeo.cpp" />
     <ClCompile Include="CSettingDlgRequest.cpp" />
+    <ClCompile Include="CSettingDocBox.cpp" />
     <ClCompile Include="CStdSdiApp.cpp" />
     <ClCompile Include="CSVar.cpp" />
     <ClCompile Include="SCElevator.cpp" />
@@ -101,6 +104,7 @@
     <ClInclude Include="CSettingDlgInit.h" />
     <ClInclude Include="CSettingDlgPeo.h" />
     <ClInclude Include="CSettingDlgRequest.h" />
+    <ClInclude Include="CSettingDocBox.h" />
     <ClInclude Include="CStdSdiApp.h" />
     <ClInclude Include="CSVar.h" />
     <ClInclude Include="SCElevator.h" />
